@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-div {
+    height: 1000px;
+    width: 1000px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .cont1 {
+        background-color: aqua;
+        height: 400px;
+        width: 400px;
+        display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+    .cont2 {
+        background-color: aqua;
+        height: 400px;
+        width: 400px;
+        display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+    .box {
+        height: 100px;
+        width: 100px;
+        background-color: bisque;
+    }
+}
