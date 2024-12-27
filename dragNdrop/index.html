@@ -8,10 +8,27 @@
   </head>
   <body>
     <div class="outer-div">
-      <div id="dz1" class="cont1">
-        <div id="box" draggable="true" class="box"></div>
+      <div
+        id="dz1"
+        class="cont1"
+        ondrop="dropHandler(event)"
+        ondragover="dragoverHandler(event)"
+      >
+        <div
+          id="box"
+          class="box"
+          draggable="true"
+          ondragstart="dragstartHandler(event)"
+        >
+          <p>DRAG ME!!!!</p>
+        </div>
       </div>
-      <div id="dz2" class="cont2"></div>
+      <div
+        id="dz2"
+        class="cont2"
+        ondrop="dropHandler(event)"
+        ondragover="dragoverHandler(event)"
+      ></div>
     </div>
 
     <script src="script.js"></script>
